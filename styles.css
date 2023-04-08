@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+
+
+@media screen and (min-width: 280px) and (max-width: 375px){
+    
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    margin: 20% 5%;
+    padding: 5%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.qr-image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+}
+
+@media screen and (min-width: 376px) {
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: hsl(212, 45%, 89%);
+        font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    }
+    
+    .modal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 375px;
+        margin: 10% 5%;
+        padding: 15px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+    }
+    
+    .qr-image{
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    .texts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    h3{
+        font-size: 26px;
+        font-weight: 700;
+    
+    }
+    
+    p{
+        font-size: 15px;
+        font-weight: 400;
+        color: hsl(220, 15%, 55%);
+    }
+    
+    .attribution{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #111;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    }
