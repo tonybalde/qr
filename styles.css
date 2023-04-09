@@ -7,6 +7,7 @@
 body{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     justify-content: space-around;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', Arial, Helvetica, sans-serif;
@@ -15,7 +16,6 @@ body{
 .modal{
     display: flex;
     flex-direction: column;
-    margin: 20% 5%;
     padding: 5%;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
@@ -60,14 +60,21 @@ a:hover{
     text-decoration: underline;
 }
 
+footer{
+    margin-top: 16px;
+}
+
+
 }
 
 @media screen and (min-width: 376px) {
     
     body{
         display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
+        min-height: 100vh;
         background-color: hsl(212, 45%, 89%);
         font-family: 'Outfit', Arial, Helvetica, sans-serif;
     }
@@ -78,7 +85,6 @@ a:hover{
         align-items: center;
         flex-direction: column;
         width: 375px;
-        margin: 10% 5%;
         padding: 15px;
         background-color: hsl(0, 0%, 100%);
         border-radius: 20px;
@@ -96,7 +102,7 @@ a:hover{
         text-align: center;
     }
     
-    h3{
+    h1{
         font-size: 26px;
         font-weight: 700;
     
@@ -123,4 +129,8 @@ a:hover{
         text-decoration: underline;
     }
     
+    footer{
+        margin-top: 16px;
+    }
+
     }
